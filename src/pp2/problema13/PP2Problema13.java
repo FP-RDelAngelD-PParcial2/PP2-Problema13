@@ -34,14 +34,13 @@ public class PP2Problema13 {
     public static double mostrarVector(int []n){ //El arreglo entra en el metodo
         double promedio;
         int numerospromedio;
-        int numerosquehay;
         numerospromedio=0;
-        numerosquehay=0;
-            for(int i=0; i<n.length; i++){ //Mientras que
-                numerospromedio=numerospromedio+n[i];
-                numerosquehay++;
+            for(int i=0; i<n.length; i++){ //Mientras que i sea menor que el tamaño del arreglo(30), i aumentara 1  
+                numerospromedio=numerospromedio+n[i];//Se guardara en numerospromedio = 0+(n[i]) i siendo la posicion
+                                        //i regresa al for y como es menor se le suma 1 y baja de nuevo
+                                        //, el valor de la posicion se suma a promedio
             }
-        promedio=numerospromedio/numerosquehay;
+        promedio=numerospromedio/n.length;
         System.out.print("El promedio es: " + promedio);
         return promedio;
         }
