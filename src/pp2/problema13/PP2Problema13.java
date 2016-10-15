@@ -15,7 +15,7 @@ public class PP2Problema13 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
     
 }
