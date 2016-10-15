@@ -19,7 +19,7 @@ public class PP2Problema13 {
         int[]numero = new int[30];
         double promedio;
         //Metodos
-        promedio=mostrarVector(llenarVector(numero));
+        promedio=promedio(llenarVector(numero));
         sobrePromedio(promedio,numero);
         bajoPromedio(promedio,numero);
     }
