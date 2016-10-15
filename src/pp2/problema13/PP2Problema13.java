@@ -63,6 +63,6 @@ public class PP2Problema13 {
                 numerosbajopromedio++;
             }
         }
-        System.out.print("\n" + "La cantidad de elementos que estan por encima del promedio son: " + numerosbajopromedio);
+        System.out.print("\n" + "La cantidad de elementos que estan por debajo del promedio son: " + numerosbajopromedio);
     }
 }
