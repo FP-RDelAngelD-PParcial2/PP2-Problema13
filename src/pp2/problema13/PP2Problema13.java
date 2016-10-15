@@ -19,6 +19,7 @@ public class PP2Problema13 {
         double promedio;
         promedio=mostrarVector(llenarVector(numero));
         sobrePromedio(promedio,numero);
+        bajoPromedio(promedio,numero);
     }
     public static int [] llenarVector(int []n){//Metodo de llenar el vector, recibe un arreglo de enteros, regresa un arreglo de enteros
         Scanner entradaEscaner = new Scanner(System.in);       
@@ -41,7 +42,7 @@ public class PP2Problema13 {
                 numerosquehay++;
             }
         promedio=numerospromedio/numerosquehay;
-        System.out.print("El promedio es: " + promedio + "\n");
+        System.out.print("El promedio es: " + promedio);
         return promedio;
         }
     public static void sobrePromedio(double promedio, int[]n){
@@ -52,7 +53,7 @@ public class PP2Problema13 {
                 numerossobrepromedio++;
             }
         }
-        System.out.print("La cantidad de elementos que estan por encima del promedio son: " + numerossobrepromedio);
+        System.out.print("\n" + "La cantidad de elementos que estan por encima del promedio son: " + numerossobrepromedio);
     }
     public static void bajoPromedio(double promedio, int[]n){
         int numerosbajopromedio;
@@ -62,6 +63,6 @@ public class PP2Problema13 {
                 numerosbajopromedio++;
             }
         }
-        System.out.print("La cantidad de elementos que estan por encima del promedio son: " + numerosbajopromedio);
+        System.out.print("\n" + "La cantidad de elementos que estan por encima del promedio son: " + numerosbajopromedio);
     }
 }
