@@ -33,7 +33,7 @@ public class PP2Problema13 {
         }
         return n;
        }
-    public static double mostrarVector(int []n){ //El arreglo entra en el metodo
+    public static double promedio(int []n){ //El arreglo entra en el metodo
         //Declaración de variables
         double promedio;
         int numerospromedio;
