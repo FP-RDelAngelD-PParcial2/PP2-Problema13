@@ -1,0 +1,34 @@
+run:
+Introduce un número para la posición [0]56
+Introduce un número para la posición [1]56
+Introduce un número para la posición [2]54
+Introduce un número para la posición [3]58
+Introduce un número para la posición [4]60
+Introduce un número para la posición [5]32
+Introduce un número para la posición [6]44
+Introduce un número para la posición [7]78
+Introduce un número para la posición [8]95
+Introduce un número para la posición [9]95
+Introduce un número para la posición [10]96
+Introduce un número para la posición [11]12
+Introduce un número para la posición [12]54
+Introduce un número para la posición [13]358
+Introduce un número para la posición [14]56
+Introduce un número para la posición [15]58
+Introduce un número para la posición [16]60
+Introduce un número para la posición [17]63
+Introduce un número para la posición [18]69
+Introduce un número para la posición [19]89
+Introduce un número para la posición [20]83
+Introduce un número para la posición [21]72
+Introduce un número para la posición [22]77
+Introduce un número para la posición [23]91
+Introduce un número para la posición [24]94
+Introduce un número para la posición [25]53
+Introduce un número para la posición [26]52
+Introduce un número para la posición [27]50
+Introduce un número para la posición [28]44
+Introduce un número para la posición [29]100
+El promedio es: 75.0
+La cantidad de elementos que estan por encima del promedio son: 11
+La cantidad de elementos que estan por debajo del promedio son: 19BUILD SUCCESSFUL (total time: 36 seconds)
